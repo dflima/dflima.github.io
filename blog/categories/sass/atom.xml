@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://dflima.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Sass | My Octopress Blog]]></title>
+  <link href="http://dflima.github.io/blog/categories/sass/atom.xml" rel="self"/>
   <link href="http://dflima.github.io/"/>
   <updated>2013-10-03T17:51:48+00:00</updated>
   <id>http://dflima.github.io/</id>
