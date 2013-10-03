@@ -3,7 +3,7 @@ layout: post
 title: "First Post"
 date: 2013-10-03 17:45
 comments: true
-categories: Sass
+categories:
 author: Danilo Lima
 ---
 
