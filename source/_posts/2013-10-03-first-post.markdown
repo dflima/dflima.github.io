@@ -7,6 +7,4 @@ categories:
 author: Danilo Lima
 ---
 
-### First Blog
-
 This is my first blog post using *markdown*
