@@ -2,22 +2,38 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://dflima.github.io/blog/2013/10/03/first-post/</loc>
-        <lastmod>2013-10-03T18:07:00+00:00</lastmod>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
     </url>
     <url>
         <loc>http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/</loc>
-        <lastmod>2013-10-04T21:20:23+00:00</lastmod>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
     </url>
     <url>
         <loc>http://dflima.github.io/blog/archives/</loc>
-        <lastmod>2013-10-04T21:20:23+00:00</lastmod>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dflima.github.io/blog/categories/</loc>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dflima.github.io/blog/</loc>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
     </url>
     <url>
         <loc>http://dflima.github.io/robots.txt</loc>
-        <lastmod>2013-10-03T16:43:04+00:00</lastmod>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dflima.github.io/projects/</loc>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://dflima.github.io/404.html</loc>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
     </url>
     <url>
         <loc>http://dflima.github.io/</loc>
-        <lastmod>2013-10-04T21:20:23+00:00</lastmod>
+        <lastmod>2013-10-04T21:47:46+00:00</lastmod>
     </url>
 </urlset>

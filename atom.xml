@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[/foo/bar]]></title>
   <link href="http://dflima.github.io/atom.xml" rel="self"/>
   <link href="http://dflima.github.io/"/>
-  <updated>2013-10-04T21:22:19+00:00</updated>
+  <updated>2013-10-04T21:51:53+00:00</updated>
   <id>http://dflima.github.io/</id>
   <author>
     <name><![CDATA[Danilo Lima]]></name>
