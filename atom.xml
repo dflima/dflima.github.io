@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://dflima.github.io/atom.xml" rel="self"/>
+  <link href="http://dflima.github.io/"/>
+  <updated>2013-10-03T18:21:54+00:00</updated>
+  <id>http://dflima.github.io/</id>
+  <author>
+    <name><![CDATA[Danilo Lima]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://dflima.github.io/blog/2013/10/03/first-post/"/>
+    <updated>2013-10-03T17:45:00+00:00</updated>
+    <id>http://dflima.github.io/blog/2013/10/03/first-post</id>
+    <content type="html"><![CDATA[<h3>First Blog</h3>
+
+<p>This is my first blog post using <em>markdown</em></p>
+]]></content>
+  </entry>
+  
+</feed>
