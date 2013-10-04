@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://dflima.github.io/atom.xml" rel="self"/>
   <link href="http://dflima.github.io/"/>
-  <updated>2013-10-03T18:21:54+00:00</updated>
+  <updated>2013-10-04T21:22:19+00:00</updated>
   <id>http://dflima.github.io/</id>
   <author>
     <name><![CDATA[Danilo Lima]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Validando emails com PHP]]></title>
+    <link href="http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/"/>
+    <updated>2013-10-04T21:07:00+00:00</updated>
+    <id>http://dflima.github.io/blog/2013/10/04/validando-emails-com-php</id>
+    <content type="html"><![CDATA[<p>Cansado de escrever funções extensas em javascript ou montar expressões regulares para validar emails na sua aplicação?
+Saiba que o PHP oferece uma opção bastante simples para isso!</p>
+
+<p>É a constante <em>FILTER_VALIDATE_EMAIL</em>, da função <em>filter_var()</em>. Veja abaixo como usar</p>
+
+<figure class='code'><figcaption><span>Validando emails</span><a href='https://gist.github.com/dflima/6832922'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$email</span> <span class="o">=</span> <span class="s2">&quot;me@example.com&quot;</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span><span class="p">(</span><span class="nb">filter_var</span><span class="p">(</span><span class="nv">$email</span><span class="p">,</span> <span class="nx">FILTER_VALIDATE_EMAIL</span><span class="p">))</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">echo</span> <span class="s2">&quot;Email válido.&quot;</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Por hoje é só. Até a próxima!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Post]]></title>

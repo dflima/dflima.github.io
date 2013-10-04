@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - My Octopress Blog</title>
+  <title>Validando emails com PHP - My Octopress Blog</title>
   <meta name="author" content="Danilo Lima">
 
   
-  <meta name="description" content="Blog Archive 2013 Validando emails com PHP
-Oct 04 2013 posted in php First Post
-Oct 03 2013 Recent Posts Validando Emails Com PHP First Post GitHub &hellip;">
+  <meta name="description" content="Cansado de escrever funções extensas em javascript ou montar expressões regulares para validar emails na sua aplicação?
+Saiba que o PHP oferece uma &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ Oct 03 2013 Recent Posts Validando Emails Com PHP First Post GitHub &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dflima.github.io/blog/archives">
+  <link rel="canonical" href="http://dflima.github.io/blog/2013/10/04/validando-emails-com-php">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -66,46 +65,116 @@ Oct 03 2013 Recent Posts Validando Emails Com PHP First Post GitHub &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Validando Emails Com PHP</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-04T21:07:00+00:00" pubdate data-updated="true">Oct 4<span>th</span>, 2013</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://dflima.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Cansado de escrever funções extensas em javascript ou montar expressões regulares para validar emails na sua aplicação?
+Saiba que o PHP oferece uma opção bastante simples para isso!</p>
 
-  
-  <h2>2013</h2>
+<p>É a constante <em>FILTER_VALIDATE_EMAIL</em>, da função <em>filter_var()</em>. Veja abaixo como usar</p>
 
-<article>
-  
-<h1><a href="/blog/2013/10/04/validando-emails-com-php/">Validando emails com PHP</a></h1>
-<time datetime="2013-10-04T21:07:00+00:00" pubdate><span class='month'>Oct</span> <span class='day'>04</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/php/'>php</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2013/10/03/first-post/">First Post</a></h1>
-<time datetime="2013-10-03T17:45:00+00:00" pubdate><span class='month'>Oct</span> <span class='day'>03</span> <span class='year'>2013</span></time>
+<figure class='code'><figcaption><span>Validando emails</span><a href='https://gist.github.com/dflima/6832922'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$email</span> <span class="o">=</span> <span class="s2">&quot;me@example.com&quot;</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span><span class="p">(</span><span class="nb">filter_var</span><span class="p">(</span><span class="nv">$email</span><span class="p">,</span> <span class="nx">FILTER_VALIDATE_EMAIL</span><span class="p">))</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">echo</span> <span class="s2">&quot;Email válido.&quot;</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-</article>
-
+<p>Por hoje é só. Até a próxima!</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Danilo Lima</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-04T21:07:00+00:00" pubdate data-updated="true">Oct 4<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/php/'>php</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/" data-via="danlima" data-counturl="http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/10/03/first-post/" title="Previous Post: First Post">&laquo; First Post</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -186,7 +255,10 @@ Oct 03 2013 Recent Posts Validando Emails Com PHP First Post GitHub &hellip;">
       var disqus_shortname = 'dplusl';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/';
+        var disqus_url = 'http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

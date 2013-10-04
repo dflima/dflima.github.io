@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: php | My Octopress Blog]]></title>
+  <link href="http://dflima.github.io/blog/categories/php/atom.xml" rel="self"/>
+  <link href="http://dflima.github.io/"/>
+  <updated>2013-10-04T21:22:19+00:00</updated>
+  <id>http://dflima.github.io/</id>
+  <author>
+    <name><![CDATA[Danilo Lima]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Validando emails com PHP]]></title>
+    <link href="http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/"/>
+    <updated>2013-10-04T21:07:00+00:00</updated>
+    <id>http://dflima.github.io/blog/2013/10/04/validando-emails-com-php</id>
+    <content type="html"><![CDATA[<p>Cansado de escrever funções extensas em javascript ou montar expressões regulares para validar emails na sua aplicação?
+Saiba que o PHP oferece uma opção bastante simples para isso!</p>
+
+<p>É a constante <em>FILTER_VALIDATE_EMAIL</em>, da função <em>filter_var()</em>. Veja abaixo como usar</p>
+
+<p>``` php Validando emails <a href="https://gist.github.com/dflima/6832922">https://gist.github.com/dflima/6832922</a>
+$email = &ldquo;<a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x6d;&#x65;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#108;&#x65;&#x2e;&#99;&#111;&#x6d;">&#109;&#101;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#108;&#101;&#x2e;&#x63;&#111;&#109;</a>&rdquo;;</p>
+
+<p>if(filter_var($email, FILTER_VALIDATE_EMAIL)) {</p>
+
+<pre><code>echo "Email válido.";
+</code></pre>
+
+<p>}
+```</p>
+
+<p>Por hoje é só. Até a próxima!</p>
+]]></content>
+  </entry>
+  
+</feed>

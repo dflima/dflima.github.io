@@ -9,8 +9,8 @@
   <meta name="author" content="Danilo Lima">
 
   
-  <meta name="description" content="First Blog This is my first blog post using markdown
-">
+  <meta name="description" content="Cansado de escrever funções extensas em javascript ou montar expressões regulares para validar emails na sua aplicação?
+Saiba que o PHP oferece uma &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +72,63 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/10/04/validando-emails-com-php/">Validando Emails Com PHP</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-04T21:07:00+00:00" pubdate data-updated="true">Oct 4<span>th</span>, 2013</time>
+        
+           | <a href="/blog/2013/10/04/validando-emails-com-php/#disqus_thread"
+             data-disqus-identifier="http://dflima.github.io/blog/2013/10/04/validando-emails-com-php/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Cansado de escrever funções extensas em javascript ou montar expressões regulares para validar emails na sua aplicação?
+Saiba que o PHP oferece uma opção bastante simples para isso!</p>
+
+<p>É a constante <em>FILTER_VALIDATE_EMAIL</em>, da função <em>filter_var()</em>. Veja abaixo como usar</p>
+
+<figure class='code'><figcaption><span>Validando emails</span><a href='https://gist.github.com/dflima/6832922'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$email</span> <span class="o">=</span> <span class="s2">&quot;me@example.com&quot;</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span><span class="p">(</span><span class="nb">filter_var</span><span class="p">(</span><span class="nv">$email</span><span class="p">,</span> <span class="nx">FILTER_VALIDATE_EMAIL</span><span class="p">))</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">echo</span> <span class="s2">&quot;Email válido.&quot;</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Por hoje é só. Até a próxima!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/10/03/first-post/">First Post</a></h1>
     
     
@@ -121,6 +178,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/10/04/validando-emails-com-php/">Validando Emails Com PHP</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/10/03/first-post/">First Post</a>
       </li>
     
@@ -147,7 +208,7 @@
 
         github.showRepos({
             user: 'dflima',
-            count: 0,
+            count: 3,
             skip_forks: true,
             target: '#gh_repos'
         });
@@ -157,6 +218,15 @@
 </section>
 
 
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/111086543057408556652?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -188,7 +258,24 @@
 
 
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 
