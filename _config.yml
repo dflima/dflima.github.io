@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://dflima.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
+title: /foo/bar
+subtitle: .hack
 author: Danilo Lima
 simple_search: http://google.com/search
 description:
